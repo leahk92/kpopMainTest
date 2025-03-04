@@ -30,29 +30,25 @@ button {
 }
 /* kpop사이트 기존 */
 #contents {
-   width: 425px;
-   margin: 0 auto;
-}
-.visual {
+   /* width: 425px; */
    width: 100%;
 }
-
-.main_pro {
-   text-align: center;
-   height: 270px;
+.main_pro_top {
+   margin: 0 auto;
 }
 .main_pro a {
    display: block;
 }
 .main_pro a img {
    display: block;
+   width: 100%;
 }
 
 /* 섹션 02 수출 국가 */
 .sec-02 {
    width: 100%;
    margin: 0 auto;
-   padding: 3rem 0 2rem;
+   padding: 2rem 0;
    background-color: #f8f8f8;
    text-align: center;
 }
