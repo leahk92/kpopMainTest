@@ -1,0 +1,13 @@
+               <div class="info-lists">
+                  <div class="checklist">
+                  </div>
+                  <div class="checklist">
+                  </div>
+                   <div class="checklist">
+                  </div>
+                  <div class="secondary">
+               </div>
+이런 구조인데
+마지막 div.checklist만 지정하고싶은데
+ css선택자
+.a01-2-info .info-lists .checklist:last-child 이렇게 하니까 안돼

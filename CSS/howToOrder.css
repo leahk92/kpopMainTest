@@ -1,0 +1,306 @@
+/* 리셋 */
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', serif;
+}
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+a {
+   color: inherit;
+   text-decoration: none;
+   outline: none;
+   cursor: pointer;
+}
+ul,
+li {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+body {
+   width: 100%;
+}
+button {
+   all: unset;
+   cursor: pointer;
+}
+/* 레이아웃 */
+#wrap-order {
+   font-size: 16px;
+   width: 1014px;
+   margin: 0 auto;
+   /* 추후 조정 */
+   /* padding: 170px 0 30px 0; */
+}
+#wrap-order > div {
+   width: 100%;
+}
+/* 1구역 */
+#wrap-order .ttl {
+   font-size: 28px !important;
+   font-weight: 400;
+   margin-bottom: 20px;
+   background: #000;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+}
+.a01-1-regi {
+   padding: 25px 0 20px;
+   background-color: #52c94e;
+   text-align: center;
+   color: #fff;
+}
+.a01-1-regi .ttl01 {
+   font-size: 40px !important;
+   font-weight: 900;
+   opacity: 0.9;
+}
+.a01-1-regi > div {
+   text-align: center;
+   padding: 10px 0;
+   margin-bottom: 15px;
+}
+.a01-1-regi .signUp {
+   font-size: 19.5px !important;
+   font-weight: 500;
+}
+.a01-1-regi .regiBtn {
+   font-family: 'Montserrat', serif;
+   font-size: 15px !important;
+   font-weight: 600;
+   color: #fff;
+   display: inline-block;
+   padding: 13px 28px;
+   border: 4px solid #fff;
+   border-radius: 30px;
+   background-color: #232e41;
+   margin-top: 15px;
+}
+.a01-1-regi .regiBtn i {
+   margin-left: 11px;
+}
+.a01-1-regi .addtoknow {
+   color: #232e41;
+}
+.a01-1-regi .addtoknow i {
+   font-size: 14px !important;
+   margin-right: 3px;
+}
+.a01-1-regi .addtoknow span {
+   font-weight: 700;
+}
+.a01-2-info {
+   margin-top: 100px;
+}
+.a01-2-info .info-lists {
+   padding-left: 10px;
+   line-height: 2;
+}
+.a01-2-info .info-lists .checklist {
+   display: flex;
+   justify-content: flex-start;
+   align-items: baseline;
+   margin-bottom: 7px;
+}
+.a01-2-info .info-lists .checklist:nth-child(4) {
+   margin-bottom: 0;
+}
+.a01-2-info .checklist i {
+   font-size: 17px;
+   margin-right: 8px;
+}
+.a01-2-info .info-lists .checklist span {
+   font-weight: 600;
+}
+.a01-2-info .secondary {
+   line-height: 1.7;
+}
+.a01-2-info .secondary > p {
+   font-size: 16px !important;
+   padding-left: 25px;
+}
+.a01-2-info .secondary i {
+   font-size: 11.5px;
+   margin-right: 5px;
+}
+/* 2구역 */
+.area-02 {
+   margin: 150px 0;
+}
+.area-02 .typeName {
+   color: #232e41;
+   font-weight: 800;
+   font-size: 22px;
+   text-align: left;
+   padding-left: 8px;
+   margin-bottom: 15px;
+}
+.area-02 .typeName span:first-child {
+   color: #718dc3;
+}
+.area-02 .typeName .rec {
+   font-weight: 400;
+   font-size: 14px;
+   border: 1.4px solid #e52020;
+   color: #e52020;
+   padding: 1px 10px;
+   margin-left: 3px;
+}
+.area-02 .type img {
+   display: block;
+   margin: 0 auto;
+}
+.area-02 .type01 {
+   margin: 45px 0 70px 0;
+}
+.area-02 .type01 .why {
+   margin-top: 70px;
+}
+.area-02 .type01 .why > p {
+   font-size: 22px !important;
+   font-weight: 650;
+   color: #333;
+   padding: 5px;
+   text-align: center;
+}
+.area-02 .type01 .why .explain {
+   display: flex;
+   padding: 20px 0;
+}
+.area-02 .type01 .why .explain > div:first-child {
+   margin: auto;
+}
+.area-02 .type01 .why .explain img {
+   width: 350px;
+}
+.area-02 .type01 .why .explain .rightTxt {
+   font-weight: 350;
+   font-size: 16px;
+   padding: 20px 30px;
+}
+.area-02 .type01 .why .explain .rightTxt i {
+   margin-right: 10px;
+   display: inline-block;
+}
+.area-02 .type01 .why .explain .rightTxt > p {
+   font-size: 16px !important;
+   margin: 15px 0;
+   display: flex;
+   justify-content: flex-start;
+   align-items: baseline;
+}
+.area-02 .flex-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 3px;
+   margin: 0 auto;
+}
+.area-02 .type .item {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.area-02 .type01 .pic {
+   margin: 20px 0;
+}
+.area-02 .type02 .pic {
+   margin: 10px 0;
+}
+.area-02 .step span {
+   font-size: 14px;
+   margin-right: 10px;
+   color: #fff;
+}
+.area-02 .type .desc {
+   font-size: 15px;
+   text-align: center;
+   font-weight: 400;
+}
+.area-02 .type01 .item {
+   flex: 0 0 calc(25% - 10px); /* 가로폭: 50% - gap 고려 */
+}
+.area-02 .type02 .item {
+   flex: 0 0 calc(33% - 10px); /* 가로폭: 50% - gap 고려 */
+}
+.area-02 .step {
+   color: #222;
+   font-weight: 650;
+   line-height: 1.5;
+   background-color: #718dc3;
+   padding: 10px 0 10px 15px;
+   border-radius: 10px;
+}
+.area-02 .type01 .item img {
+   width: 220px;
+}
+.area-02 .type02 .item img {
+   width: 240px;
+}
+
+/* 3구역 */
+.area-03 .list {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   height: 100px;
+   margin-bottom: 10px;
+}
+.area-03 .list .number {
+   width: 50px;
+   padding-bottom: 20px;
+   font-size: 25px;
+   color: #52c94e;
+   font-weight: 700;
+}
+.area-03 .list .icon {
+   width: 120px;
+   height: 120px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-right: 15px;
+}
+.area-03 .list .text {
+   font-size: 20px;
+   font-weight: 700;
+   color: #232e41;
+}
+.area-03 .list .text span {
+   font-size: 15px;
+   font-weight: 400;
+   padding: 1px 0;
+   display: inline-block;
+}
+.area-03 .list .text .fa-minus {
+   margin: 0 5px 0 10px;
+   font-size: 10px;
+}
+.area-03 .list .text .fa-link {
+   font-size: 15px;
+   margin: 0 5px;
+}
+.area-03 .list .text .blog {
+   display: inline-block;
+   margin-top: 5px;
+}
+.area-03 .list .text .underline {
+   padding: 0 3px 1px 2px;
+   border-bottom: 1px solid #666;
+}
+.area-03 .closingMent {
+   margin-top: 80px;
+   font-size: 35px !important;
+   font-weight: 800;
+   background-color: #52c94e;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.9);
+   padding: 50px 0;
+}

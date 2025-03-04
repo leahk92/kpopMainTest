@@ -1,0 +1,93 @@
+/* 리셋 */
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', serif;
+}
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+a {
+   color: inherit;
+   text-decoration: none;
+   outline: none;
+   cursor: pointer;
+}
+ul,
+li {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+body {
+   width: 100%;
+}
+button {
+   all: unset;
+   cursor: pointer;
+}
+/* kpop사이트 기존 */
+#contents {
+   width: 425px;
+   margin: 0 auto;
+}
+.visual {
+   width: 100%;
+}
+
+.main_pro {
+   text-align: center;
+   height: 270px;
+}
+.main_pro a {
+   display: block;
+}
+.main_pro a img {
+   display: block;
+}
+
+/* 섹션 02 수출 국가 */
+.sec-02 {
+   width: 100%;
+   margin: 0 auto;
+   padding: 3rem 0 2rem;
+   background-color: #f8f8f8;
+   text-align: center;
+}
+.sec-02 .container {
+   width: 100%;
+   padding: 10px 0;
+}
+.sec-02-copy {
+   margin-bottom: 30px;
+   font-size: 0.95em;
+   font-weight: 600;
+   line-height: 1.5;
+   color: #333;
+}
+.nationBox {
+   width: 93%;
+   margin: 0 auto;
+   text-align: center;
+}
+.nationList {
+   margin: 0 0.5em;
+}
+
+/* 화살표 */
+.sec-02 .nationBox .slick-arrow {
+   display: none;
+   position: absolute;
+   top: 0px;
+   z-index: 999;
+   text-indent: -9999px;
+   outline: none;
+}
+.sec-02 .nationBox .slick-arrow.slick-prev {
+   display: none;
+}
+.sec-02 .nationBox .slick-arrow.slick-next {
+   display: none;
+}
