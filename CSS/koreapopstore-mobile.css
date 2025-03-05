@@ -41,6 +41,7 @@ button {
 .main_visual a img {
    display: block;
    width: 100%;
+   margin-bottom: -1px;
 }
 /* 국기 영역 수정 추가 */
 .sec-02 {
@@ -49,8 +50,7 @@ button {
 }
 .sec-02 .container {
    width: 100%;
-
-   padding: 5px;
+   padding: 5px 0 10px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -59,19 +59,24 @@ button {
 }
 .sec-02 .nationBox {
    width: 100%;
-   margin: 0 auto;
    display: flex;
    justify-content: center;
    align-items: center;
+   gap: 1.5%;
 }
 .sec-02 .nationBox:nth-child(2) {
    margin-top: 5px;
 }
-
 .nationList {
-   margin: 0 3px;
+   /* margin: 0 3px; */
 }
+/* .nationList:first-child {
+   margin-left: 0;
+}
+.nationList:last-child {
+   margin-right: 0;
+} */
 .nationList img {
-   width: 24px;
+   width: 23px;
    /* display: block; */
 }
