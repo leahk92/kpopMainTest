@@ -41,77 +41,28 @@ button {
 .main_visual a {
    height: 100%;
    display: block;
-   background-image: url('/image/MAIN.png');
+   background-image: url('/image/MAIN5.webp');
    background-size: cover;
    width: 100%;
 }
 
-/* 섹션 02 수출 국가 */
-/* .sec-02 {
-   width: 100%;
-   padding: 1.5rem 0 1rem;
-   margin-bottom: 65px;
-   text-align: center;
-   background-color: #fdfdfd;
-}
-.sec-02 .container {
-   width: 100%;
-   padding: 25px 0 20px;
-   margin: 0 auto;
-}
-.sec-02-copy {
-   margin-bottom: 10px;
-   font-size: 1.1em;
-   font-weight: 300;
-   color: #000;
-}
-.nationBox {
-   width: 80%;
-   margin: 0 auto;
-   text-align: center;
-}
-.nationList {
-   margin: 0 1.7em;
-} */
-
-/* 화살표 */
-/* .sec-02 .nationBox .slick-arrow {
-   position: absolute;
-   top: 0px;
-   z-index: 999;
-   text-indent: -9999px;
-   outline: none;
-}
-.sec-02 .nationBox .slick-arrow.slick-prev {
-   background: url('/image/prev.png') no-repeat 50% 50%;
-   background-size: 20px;
-   left: -80px;
-   padding: 10px 20px;
-}
-.sec-02 .nationBox .slick-arrow.slick-next {
-   background: url('/image/next.png') no-repeat 50% 50%;
-   background-size: 20px;
-   right: -80px;
-   padding: 10px 20px;
-} */
-
 /* 국기 영역 수정 추가 */
 .sec-02 {
    width: 100%;
-
-   background-color: #fdfdfd;
+   margin-bottom: 25px;
 }
 .sec-02 .container {
    width: 100%;
-   margin-bottom: 25px;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   background-color: #283243;
+   padding: 0 0 20px;
 }
 .sec-02 .nationBox {
    width: 100%;
-   margin-top: 25px;
+   margin-top: 15px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -126,5 +77,42 @@ button {
    margin: 0 9px;
 }
 .nationList img {
-   width: 55px;
+   width: 43px;
+}
+
+/* 섹션 03 */
+.sec-03 {
+   width: 100%;
+}
+.sec-03 .banner-two {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.sec-03 .banner-two .ctts {
+   /* width: 50%; */
+}
+.sec-03 .banner-two .ctts a {
+   display: block;
+}
+.sec-03 .banner-two .ctts img {
+   width: 500px;
+   display: block;
+}
+.sec-03 .banner-two .ctts .info {
+   padding: 10px 0;
+   display: flex;
+   justify-content: space-evenly;
+
+   align-items: center;
+   font-size: 15px;
+   border: 1px solid #ddd;
+   /* font-weight: 600; */
+}
+.sec-03 .banner-two .ctts .info span {
+   display: inline-block;
+   /* border: 3px solid #283243;
+   border-radius: 5px;
+   padding: 2px 15px; */
+   font-weight: 600;
 }
